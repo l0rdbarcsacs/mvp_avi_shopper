@@ -8,14 +8,14 @@ export default defineConfig({
     host: '0.0.0.0', // Accept connections from any host
     port: 5173,
     strictPort: false,
-    allowedHosts: ['all', 'df91d9569da5.ngrok-free.app', '.ngrok-free.app'], // Allow all hosts and specific ngrok domains
+    allowedHosts: ['all', 'avi.tooxs.ai'], // Allow all hosts and specific domain
     disableHostCheck: true, // Disable host checking completely
   },
   preview: {
     host: '0.0.0.0',
     port: 5173,
     strictPort: false,
-    allowedHosts: ['all', 'df91d9569da5.ngrok-free.app', '.ngrok-free.app'], // Allow all hosts and specific ngrok domains
+    allowedHosts: ['all', 'avi.tooxs.ai'], // Allow all hosts and specific domain
     disableHostCheck: true, // Disable host checking completely
   },
   define: {
